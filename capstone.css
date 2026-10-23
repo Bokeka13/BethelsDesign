@@ -1,0 +1,194 @@
+.hero-section {
+  background-color: #fef3e2;
+  color: #2a1a0e;
+}
+
+.hero-section-2 {
+  background-color: #2a1a0e;
+  color: #fef3e2;
+  padding: 60px 20px;
+}
+.my-name {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.hello-text {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #fef3e2;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.me {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  padding-top: 20px;
+}
+
+.my-image {
+  border-radius: 400px;
+  outline: 2px solid #fef3e2;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.5);
+}
+.profile-description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+.my-skills-1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: small;
+  float: right;
+}
+
+.web-dev-img {
+  border-radius: 20px;
+  outline: 2px solid #fef3e2;
+  float: left;
+  flex: 1;
+  text-align: center;
+}
+
+.skillnimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillnimg-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.skill-1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.skill-2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.cta-container {
+  background-color: #fef3e2;
+  color: #2a1a0e;
+}
+.cta-head {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #2a1a0e;
+  padding-top: 30px;
+}
+
+.cta-text {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+.cta-btn {
+  background-color: #2a1a0e;
+  color: #fef3e2;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #2a1a0e;
+  color: #fef3e2;
+  padding: 20px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+.nav-item a {
+  color: #fef3e2;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+@media (min-width: 576px) and (max-width: 1536px) {
+  .web-dev-img {
+    margin-left: 150px;
+  }
+
+  .skill-1 {
+    margin-right: 150px;
+  }
+
+  .skill-2 {
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .skillnimg {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .skillnimg-2 {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    margin-top: 70px;
+  }
+
+  .web-dev-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    float: none;
+  }
+
+  .skill-1 {
+    text-align: center;
+    padding-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .skill-2 {
+    text-align: center;
+    padding-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
